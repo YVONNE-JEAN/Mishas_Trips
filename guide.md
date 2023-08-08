@@ -1,20 +1,21 @@
 # User guide
 
 ## HTML
-### Add content above table, find `<table`
+
+### Add content above table, find `<iframe`
 ```
-<body>
+</header>
 
-Content between <body> and <table>
+Content between </header> and <iframe>
 
-  <table>
+<iframe src="table.htm" ...></iframe>
 ```
 
-### Add content below table, find `</table>`
+### Add content below table, find `<iframe`
 ```
-  </table>
+<iframe src="table.htm" ...></iframe>
 
-Content between </table> and </body>
+Content between <iframe> and </body>
 
 </body>
 ```
@@ -32,8 +33,7 @@ Rename the HTML file to `index`.
 ## Upload
 <img width="960" src="https://github.com/YVONNE-JEAN/Mishas_Trips/assets/2561973/ce15dfa3-4efc-4ae6-846c-74c7291e0ecd" alt="">
 
-
-## Delete file
+## Download/Delete file
 <img width="960" src="https://github.com/YVONNE-JEAN/Mishas_Trips/assets/2561973/a1a2e526-1a8f-4ebb-83c1-cc68036dd718" alt="">
 
 ---
