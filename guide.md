@@ -1,23 +1,13 @@
 # User guide
 
 ## HTML
-
-### Add content above table, find `<iframe`
+Main elements of `index.html`, images can be placed between them.
 ```
-</header>
+<h1 class="title">...</h1>
 
-Content between </header> and <iframe>
+<p class="intro">...</p>
 
 <iframe src="table.htm" ...></iframe>
-```
-
-### Add content below table, find `<iframe`
-```
-<iframe src="table.htm" ...></iframe>
-
-Content between <iframe> and </body>
-
-</body>
 ```
 
 ### Image tag
@@ -28,7 +18,7 @@ Content between <iframe> and </body>
 - `height`: adjust image height
 
 ### Rename
-Rename the HTML file to `index`.
+Rename the HTML file from Excel to `table` without editing its content.
 
 ## Upload
 <img width="960" src="https://github.com/YVONNE-JEAN/Mishas_Trips/assets/2561973/ce15dfa3-4efc-4ae6-846c-74c7291e0ecd" alt="">
